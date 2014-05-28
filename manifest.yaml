@@ -1,0 +1,13 @@
+---
+
+name: foo
+maintainer: bar
+description: a long description
+version: 1.0
+handlers:
+  - event: member-join
+    script: 'join.sh'
+  - event: member-leave
+    script: 'leave.sh'
+dependencies:
+  - bar: 1.0
