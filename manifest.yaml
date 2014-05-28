@@ -10,4 +10,4 @@ handlers:
   - event: member-leave
     script: 'leave.sh'
 dependencies:
-  - xiamx/bar: 1.0
+  xiamx/bar: 1.0
